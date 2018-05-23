@@ -50,16 +50,16 @@ export default class Presentation extends React.Component {
           </Text>
         </Slide>
         <Slide transition={['fade']} bgColor="secondary">
-          <Heading size={6} textColor="primary" caps fit>
+          <Heading size={1} textColor="primary" caps>
             Me?
           </Heading>
         </Slide>
         <Slide transition={['fade']} bgColor="secondary" textColor="tertiary">
-          <Heading size={6} textColor="primary" caps fit>
+          <Heading size={1} textColor="primary" caps>
             Icebrg
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary">
-            blurb about icebrg
+            ICEBRG is an enterprise network security company building software that empowers our customers to detect and track adversaries in real-time. Our products helps security professionals get an unparalleled view into their networks, perform forensics on security incidents and build effective early warning systems.
           </Text>
         </Slide>
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
@@ -115,7 +115,7 @@ export default class Presentation extends React.Component {
           </Appear>
         </Slide>
         <Slide transition={['fade']} bgColor="secondary" textColor="primary">
-          <Heading margin="0 0 100px 0" size={6} textColor="primary" caps fit>
+          <Heading margin="0 0 100px 0" size={1} textColor="primary" caps>
             So what?
           </Heading>
           <Appear>
