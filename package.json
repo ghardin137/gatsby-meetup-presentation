@@ -1,5 +1,6 @@
 {
   "name": "gatsby-react-meetup",
+  "homepage": "https://ghardin137.github.io/gatsby-react-meetup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
