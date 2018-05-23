@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import {Deck} from 'spectacle';
-import styled from 'react-emotion';
 
 import icebrgLogo from './images/logo.png';
 
@@ -20,7 +19,7 @@ const IcebrgSlide = (props) => {
             <Deck {...rest}>
                 {children}
             </Deck>
-            <img src={icebrgLogo} style={imageStyles}/>
+            <img src={icebrgLogo} style={imageStyles} alt="ICEBRG"/>
         </Fragment>
     )
 };
